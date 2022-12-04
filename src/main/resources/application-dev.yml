@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: ${DB_URL}
+    driverClassName: ${DRIVER_CLASS_NAME}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    jackson.serialization.fail-on-empty-beans: false
+  jpa:
+    database-platform: ${DB_PLATFORM}
+    format_sql: true
+    hibernate:
+      ddl-auto: create
+    generate-ddl: true
+    show-sql: true
+    open-in-view: true

@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "spring.datasource.jackson.serialization.fail-on-empty-beans",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.jackson.serialization.fail-on-empty-beans'"
+  },
+  {
+    "name": "spring.jpa.format_sql",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.jpa.format_sql'"
+  },
+  {
+    "name": "spring.devtools.livereload.enable",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.devtools.livereload.enable'"
+  }
+]}

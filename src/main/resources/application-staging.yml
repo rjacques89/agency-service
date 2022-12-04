@@ -1,0 +1,22 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  h2:
+    console.enabled: true
+  application:
+    name: agency-service
+  datasource:
+    url: jdbc:h2:mem:agency
+    driverClassName: org.h2.Driver
+    username: root
+    password: h2
+    jackson.serialization.fail-on-empty-beans: false
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    format_sql: true
+    hibernate:
+      ddl-auto: create
+    generate-ddl: true
+    show-sql: true
+    open-in-view: true
