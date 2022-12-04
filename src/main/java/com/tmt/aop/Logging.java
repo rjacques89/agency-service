@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 @Aspect
 public class Logging {
 
-    @AfterThrowing(value = "execution(* com.mlt.controller.*.*(..))")
+    @AfterThrowing(value = "execution(* com.tmt.controller.*.*(..))")
     public void methodeTracker(JoinPoint joinPoint){
         log.info("***** {}", joinPoint);
     }
